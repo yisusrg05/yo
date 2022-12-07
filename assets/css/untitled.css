@@ -3,3 +3,8 @@
   --bs-text-opacity: 1;
   /*color: rgba(var(--bs-info-rgb), var(--bs-text-opacity)) !important;*/
 }
+
+.card:hover{
+  transform: scale(1.05);
+box-shadow: 0 30px 30px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
