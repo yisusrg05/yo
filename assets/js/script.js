@@ -17,3 +17,5 @@ const getFlagEmoji = (countryCode) => countryCode.toUpperCase().replace(/./g,
 
 const flagReplace = document.querySelectorAll('[data-flag]');
 flagReplace.forEach(s => s.innerHTML = getFlagEmoji(s.dataset.flag))
+
+var snd = new Audio("../laraBanana.mp3");
